@@ -1,0 +1,23 @@
+
+.container{
+    width: 300px;
+    height: 100px;
+    background: transparent;
+    margin: 4px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 1px  #0f172a;
+}
+.content{
+    padding: 14px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.info h3 ,h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: #121212;
+}

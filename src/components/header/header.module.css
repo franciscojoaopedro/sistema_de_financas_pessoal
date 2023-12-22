@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    background: #14b8a6;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav h2{
+    color: #fff;
+}

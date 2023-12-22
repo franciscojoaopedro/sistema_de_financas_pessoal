@@ -1,0 +1,37 @@
+.table{
+    width: 900px;
+    margin-bottom: 30px;
+}
+.thead{
+    background: #334155;
+    height: 25px;
+}
+.thead th{
+    padding: 5px;
+    color: #fff;
+    text-align: start;
+}
+
+.tbody{
+    background: #d6d3d1;
+}
+
+.tbody tr{
+}
+.tbody tr td{
+    padding: 5px;
+
+}
+
+.icons{
+    text-align: center;
+}
+
+.infoContent td{
+    font-weight: 300;
+}
+
+.infoContent td:last-child{
+    text-align: right;
+    cursor: pointer;
+}
