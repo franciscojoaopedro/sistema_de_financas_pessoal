@@ -1,8 +1,10 @@
 import axios from "axios"
 
 
+const urlApiDeploy="https://api-sistema-de-financas.onrender.com";
+const urlApiLocal="http://localhost:3333"
 export const api=axios.create({
-    baseURL:"http://localhost:3333",
+    baseURL:`${urlApiDeploy}`,
     headers:{
         "Content-Type":"application/json"
     }

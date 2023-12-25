@@ -1,4 +1,4 @@
-.container{
+/* .container{
     width: auto;
     max-width: 1000px;
     background: #64748b;
@@ -65,5 +65,88 @@
     cursor: pointer;
     background-color: #14b8a6;
     color: #f0fdfa;
+    font-weight: 500;
+} */
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: auto;
+    /* max-width: 2000px; */
+    /* background: #64748b; */
+    width: auto;
+    background-color:#051B32;
+    padding: 20px;
+    border-radius: 8px;
+}
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.checkboxFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.AreaInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px ;
+    gap: 5px;
+}
+
+.AreaInput label{
+    margin-right: 2px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.AreaInput input{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #d1d5db;
+    
+ 
+}
+
+
+.checkboxFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.checkboxFlex label {
+    color: #f0fdfa;
+}
+
+.btnAdicionar{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #14b8a6; 
+color:aliceblue;
+    /* color: #f0fdfa; */
     font-weight: 500;
 }

@@ -1,4 +1,3 @@
-
 import { formatarMoeda } from "../../utils/utils";
 import styles from "./card.module.css"
 
@@ -9,9 +8,10 @@ const Card = ({titulo,valor,icons}) => {
                 <h3>{titulo}</h3>
                 <h4>{formatarMoeda(valor)}</h4>
             </div>
-            <div>
+            <div className={styles.icons}>
                 {icons}
             </div>
+        
         </div>
 
   </div>;

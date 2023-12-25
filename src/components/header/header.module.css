@@ -1,4 +1,4 @@
-.header{
+/* .header{
     width: 100%;
     background: #14b8a6;
     height: 70px;
@@ -17,4 +17,27 @@
 
 .nav h2{
     color: #fff;
+} */
+
+
+.header{
+    width: 100%;
+    background: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav h2{
+    color: white;
+    font-weight: normal;
 }

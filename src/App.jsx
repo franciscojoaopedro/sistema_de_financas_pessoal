@@ -33,15 +33,17 @@ React.useEffect(()=>{
     <>
      <Header/>
      <div  style={{
+      top:"85px",
       display:"flex",
       justifyContent:"center",
       alignItems:"center"
      }}>
+
+
       <Card
         titulo={"Entrada"}
         valor={entradas}
         icons={<HiArrowCircleDown   color='#2dd4bf' size={30} />}
-        
       />
 
         <Card
